@@ -15,7 +15,7 @@ public class HealthyBurger extends Hamburger{
         if(!type.isEmpty()){
             this.healthyExtra1Name = type;
             this.healthyExtra1Price = pricee;
-            System.out.println("Added " + this.healthyExtra1Name + " for " + healthyExtra1Price);
+            System.out.println("Added " + healthyExtra1Name + " for " + healthyExtra1Price);
         }
     }
 
@@ -23,12 +23,12 @@ public class HealthyBurger extends Hamburger{
         if(!type.isEmpty()){
             this.healthyExtra2Name = type;
             this.healthyExtra2Price = pricee;
-            System.out.println("Added " + this.healthyExtra2Name + " for " + healthyExtra2Price);
+            System.out.println("Added " + healthyExtra2Name + " for " + healthyExtra2Price);
         }
     }
 
     @Override
     public double itemizeHamburger() {
-        return super.itemizeHamburger() + this.healthyExtra1Price + this.healthyExtra2Price;
+        return super.itemizeHamburger() + healthyExtra1Price + healthyExtra2Price;
     }
 }
