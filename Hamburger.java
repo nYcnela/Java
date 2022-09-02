@@ -31,28 +31,28 @@ public class Hamburger {
         if(!type.isEmpty()){
             this.addition1Name = type;
             this.addition1Price = pricee;
-            System.out.println("Added " + this.addition1Name + " for " + this.addition1Price);
+            System.out.println("Added " + addition1Name + " for " + addition1Price);
         }
     }
     public void addHamburgerAddition2 (String type, double pricee){
         if(!type.isEmpty()){
             this.addition2Name = type;
             this.addition2Price = pricee;
-            System.out.println("Added " + this.addition2Name + " for " + this.addition2Price);
+            System.out.println("Added " + addition2Name + " for " + addition2Price);
         }
     }
     public void addHamburgerAddition3 (String type, double pricee) {
         if(!type.isEmpty()){
             this.addition3Name = type;
             this.addition3Price = pricee;
-            System.out.println("Added " + this.addition3Name + " for " + this.addition3Price);
+            System.out.println("Added " + addition3Name + " for " + addition3Price);
         }
     }
     public void addHamburgerAddition4 (String type, double pricee) {
         if(!type.isEmpty()){
             this.addition4Name = type;
             this.addition4Price = pricee;
-            System.out.println("Added " + this.addition4Name + " for " + this.addition4Price);
+            System.out.println("Added " + addition4Name + " for " + addition4Price);
         }
     }
 
